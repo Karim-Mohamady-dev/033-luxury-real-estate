@@ -1,414 +1,420 @@
 {
-  "metaTitle": "Maison Aurum | Luxury homes and private residences",
-  "metaDescription": "A small collection of luxury homes, presented privately. Request a private viewing with a senior adviser.",
-  "brand": "Maison Aurum",
-  "brandIcon": "key",
-  "nav": {
-    "language": "Language",
-    "menu": "Menu",
-    "cta": "Request a viewing",
+ "metaTitle": "Maison Aurum | Luxury homes and private residences",
+ "metaDescription": "A small collection of luxury homes, presented privately. Request a private viewing with a senior adviser.",
+ "brand": "Maison Aurum",
+ "brandIcon": "key",
+ "nav": {
+  "language": "Language",
+  "menu": "Menu",
+  "cta": "Request a viewing",
+  "links": [
+   {
+    "id": "collection",
+    "label": "Residences"
+   },
+   {
+    "id": "benefits",
+    "label": "Why Aurum"
+   },
+   {
+    "id": "how",
+    "label": "How it works"
+   },
+   {
+    "id": "people",
+    "label": "Advisers"
+   },
+   {
+    "id": "pricing",
+    "label": "Services"
+   },
+   {
+    "id": "faq",
+    "label": "Questions"
+   }
+  ]
+ },
+ "hero": {
+  "eyebrow": "Private luxury residences",
+  "title": "A home chosen",
+  "titleAccent": "quietly, and well",
+  "sub": "A small collection of residences, shown one at a time, with a senior adviser beside you from first visit to signing.",
+  "cta": "Request a viewing",
+  "secondary": "View the residences",
+  "proof": "Every residence is visited in person by our team before it is shown.",
+  "alt": "Illustration of a modern luxury villa with a pool at dusk"
+ },
+ "benefits": {
+  "eyebrow": "Why Maison Aurum",
+  "title": "Luxury is attention, not noise",
+  "items": [
+   {
+    "icon": "key",
+    "title": "Private viewings only",
+    "body": "Homes are shown one buyer at a time, at hours that suit you, with no open house crowds."
+   },
+   {
+    "icon": "shield",
+    "title": "Discreet by default",
+    "body": "Your search stays between you and your adviser. Nothing is shared without your word."
+   },
+   {
+    "icon": "compass",
+    "title": "Off market access",
+    "body": "Some homes are never listed in public. Your adviser brings them to you first."
+   },
+   {
+    "icon": "chat",
+    "title": "One adviser throughout",
+    "body": "The same person answers your calls, walks the home with you and sits at the signing table."
+   }
+  ]
+ },
+ "tagline": "A fine home does not shout. It waits behind a quiet gate, and reveals itself slowly to the person it was made for.",
+ "how": {
+  "eyebrow": "How it works",
+  "title": "Three calm steps to a private home",
+  "steps": [
+   {
+    "title": "A quiet conversation",
+    "body": "Tell your adviser what home means to you, in your own words, and what must stay private."
+   },
+   {
+    "title": "Private viewings",
+    "body": "Visit two or three residences that truly match, at your pace, with no pressure to decide."
+   },
+   {
+    "title": "A careful close",
+    "body": "Terms, papers and timing are handled discreetly, with a lawyer you choose reviewing every page."
+   }
+  ]
+ },
+ "collection": {
+  "eyebrow": "Residences",
+  "title": "The current collection",
+  "sub": "Sample residences. Prices shown are demo prices for this page.",
+  "searchLabel": "Search residences",
+  "searchPlaceholder": "Search by area or residence name",
+  "filterLabel": "Filter by type",
+  "allLabel": "All",
+  "emptyTitle": "No residence matches this search",
+  "emptyBody": "Try a different area or clear the filters to see the whole collection.",
+  "clearFilters": "Clear filters",
+  "viewDetails": "View details",
+  "askAbout": "Ask about this residence",
+  "sampleLabel": "Sample residence",
+  "items": [
+   {
+    "id": "r1",
+    "category": "Villa",
+    "icon": "house",
+    "title": "The marble court villa",
+    "location": "New Cairo",
+    "meta1": "6 bedrooms",
+    "meta2": "7 bathrooms",
+    "meta3": "640 m²",
+    "price": "EGP 38,400,000",
+    "tag": "Private sale",
+    "desc": "A marble court villa with a pool wing, a library and a garden designed for long evenings outdoors.",
+    "image": "https://images.pexels.com/photos/40619552/pexels-photo-40619552/free-photo-of-modern-luxurious-villa-by-the-waterfront.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "id": "r2",
+    "category": "Penthouse",
+    "icon": "buildings",
+    "title": "Skyline penthouse",
+    "location": "Zamalek, Cairo",
+    "meta1": "4 bedrooms",
+    "meta2": "5 bathrooms",
+    "meta3": "410 m²",
+    "price": "EGP 27,900,000",
+    "tag": "Private sale",
+    "desc": "A top floor penthouse with a wraparound terrace, a private lift and a view over the river.",
+    "image": "https://images.pexels.com/photos/16631149/pexels-photo-16631149/free-photo-of-windows-and-white-walls-in-building.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "id": "r3",
+    "category": "Villa",
+    "icon": "house",
+    "title": "Palm garden villa",
+    "location": "Sheikh Zayed City",
+    "meta1": "5 bedrooms",
+    "meta2": "6 bathrooms",
+    "meta3": "520 m²",
+    "price": "EGP 31,250,000",
+    "tag": "Private sale",
+    "desc": "A garden villa with mature palms, a shaded pool and a guest wing that works as a home office.",
+    "image": "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "id": "r4",
+    "category": "Penthouse",
+    "icon": "buildings",
+    "title": "The gallery penthouse",
+    "location": "New Cairo",
+    "meta1": "3 bedrooms",
+    "meta2": "4 bathrooms",
+    "meta3": "340 m²",
+    "price": "EGP 22,750,000",
+    "tag": "Private sale",
+    "desc": "A penthouse with gallery height ceilings, a chef kitchen and a terrace made for hosting.",
+    "image": "https://images.pexels.com/photos/32115995/pexels-photo-32115995/free-photo-of-modern-residential-architecture-in-hauts-de-france.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "id": "r5",
+    "category": "Estate",
+    "icon": "house",
+    "title": "Olive estate house",
+    "location": "Katameya Heights",
+    "meta1": "7 bedrooms",
+    "meta2": "8 bathrooms",
+    "meta3": "890 m²",
+    "price": "EGP 54,600,000",
+    "tag": "By introduction",
+    "desc": "An estate house on a full acre, with an olive grove, a pool house and staff quarters.",
+    "image": "https://images.pexels.com/photos/28054849/pexels-photo-28054849/free-photo-of-a-luxury-villa-with-a-swimming-pool-at-dusk.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "id": "r6",
+    "category": "Villa",
+    "icon": "house",
+    "title": "The quiet courtyard villa",
+    "location": "Marassi, North Coast",
+    "meta1": "5 bedrooms",
+    "meta2": "5 bathrooms",
+    "meta3": "470 m²",
+    "price": "EGP 29,300,000",
+    "tag": "Private sale",
+    "desc": "A coastal villa arranged around a courtyard, with sea air in every room and a short walk to the beach.",
+    "image": "https://images.pexels.com/photos/39102530/pexels-photo-39102530/free-photo-of-mediterranean-style-villas-overlooking-the-sea.jpeg?cs=tinysrgb&dpr=1&w=500"
+   }
+  ]
+ },
+ "people": {
+  "eyebrow": "Advisers",
+  "title": "Your adviser, from first call to signing",
+  "sub": "Senior advisers only. No handovers, no call centre.",
+  "items": [
+   {
+    "icon": "users",
+    "name": "Amira Khalil",
+    "role": "Senior adviser",
+    "body": "Amira has guided buyers through private sales in Cairo for twelve years."
+   },
+   {
+    "icon": "users",
+    "name": "Tariq El Din",
+    "role": "Senior adviser",
+    "body": "Tariq specialises in estates and off market homes along the North Coast."
+   },
+   {
+    "icon": "users",
+    "name": "Nadia Fawzi",
+    "role": "Private clients lead",
+    "body": "Nadia looks after families relocating to Cairo and arranges every viewing around their stay."
+   }
+  ]
+ },
+ "proof": {
+  "eyebrow": "What clients say",
+  "title": "Quiet praise from private clients",
+  "sampleLabel": "Sample testimonial",
+  "items": [
+   {
+    "quote": "We never felt rushed. Our adviser showed us three homes over three weeks, and the third was the one.",
+    "name": "H. El Sherif",
+    "role": "Bought a villa in New Cairo"
+   },
+   {
+    "quote": "Everything stayed private. Our name never appeared anywhere, and the sale closed on the date we agreed.",
+    "name": "M. Mansour",
+    "role": "Sold a penthouse in Zamalek"
+   },
+   {
+    "quote": "The viewing was arranged around our flight. We landed, saw the house, and signed the reservation the same evening.",
+    "name": "S. and R. Haddad",
+    "role": "Bought a coastal villa"
+   }
+  ]
+ },
+ "pricing": {
+  "eyebrow": "Services",
+  "title": "How our service is arranged",
+  "sub": "Fees are agreed in writing before any viewing is arranged. There is no charge to talk through your search.",
+  "note": "All figures are confirmed in writing before work starts. Nothing is charged for an introductory conversation.",
+  "plans": [
+   {
+    "name": "Private search",
+    "price": "{{search fee}}",
+    "per": "Per completed purchase",
+    "cta": "Start a private search",
+    "featured": false,
+    "features": [
+     "One senior adviser throughout",
+     "Off market homes included",
+     "Viewings arranged around your calendar"
+    ]
+   },
+   {
+    "name": "Private sale",
+    "price": "{{sale fee}}",
+    "per": "Per completed sale",
+    "cta": "Discuss selling privately",
+    "featured": true,
+    "features": [
+     "Discreet presentation, no public listing",
+     "Buyers introduced by your adviser only",
+     "Negotiation and papers handled for you"
+    ]
+   },
+   {
+    "name": "Relocation",
+    "price": "{{relocation fee}}",
+    "per": "Per family relocation",
+    "cta": "Plan a relocation",
+    "featured": false,
+    "features": [
+     "A shortlist ready before you arrive",
+     "Schools and area guidance included",
+     "Settling in support after the move"
+    ]
+   }
+  ]
+ },
+ "faq": {
+  "eyebrow": "Questions",
+  "title": "Questions private clients ask",
+  "items": [
+   {
+    "q": "Are your homes listed in public?",
+    "a": "Most are not. Homes are shown privately to buyers whose search matches, and some are shared only by introduction."
+   },
+   {
+    "q": "How do I arrange a viewing?",
+    "a": "Send a request through the form below. Your adviser will call you, confirm a time, and meet you at the residence."
+   },
+   {
+    "q": "Can I keep my search private?",
+    "a": "Yes. Your name and details are shared with no one without your word, and viewings are arranged one buyer at a time."
+   },
+   {
+    "q": "Do you work with buyers from abroad?",
+    "a": "Yes. We arrange video walkthroughs first, then a shortlist of viewings for your visit, with a lawyer you choose reviewing the papers."
+   },
+   {
+    "q": "What does the service cost?",
+    "a": "Fees depend on the service and the home, and they are agreed in writing before any viewing. An introductory conversation is free."
+   },
+   {
+    "q": "Can you help sell my home privately?",
+    "a": "Yes. We present the home discreetly to matched buyers, manage the viewings, and handle the negotiation and papers."
+   }
+  ]
+ },
+ "form": {
+  "eyebrow": "Private inquiry",
+  "title": "Request a private viewing",
+  "sub": "Share a little about what you are looking for. Your adviser will call you, not a call centre.",
+  "name": "Full name",
+  "namePh": "Your full name",
+  "email": "Email",
+  "emailPh": "name@example.com",
+  "phone": "Phone",
+  "phonePh": "+20 100 000 0000",
+  "type": "I am interested in",
+  "typePlaceholder": "Choose one",
+  "typeOptions": [
+   "Buying a residence",
+   "Selling privately",
+   "A private viewing",
+   "Relocation"
+  ],
+  "message": "Tell us about the home you want",
+  "messagePh": "Area, style, what matters most",
+  "submit": "Send my private request",
+  "successTitle": "Request received",
+  "successBody": "Thank you. Your adviser will call you within one working day.",
+  "sendAnother": "Send another request",
+  "errors": {
+   "required": "This field is required",
+   "email": "Enter an email address in the format name@example.com",
+   "phone": "Enter a phone number with at least 7 digits"
+  },
+  "savedNote": "Requests saved in this browser: {{count}}"
+ },
+ "finalCta": {
+  "title": "The right home is rarely the loudest one",
+  "sub": "Tell us what you are looking for, and we will show you the homes that match, quietly.",
+  "cta": "Request a viewing"
+ },
+ "footer": {
+  "about": "Maison Aurum presents a small collection of luxury residences, privately, with one senior adviser for each client.",
+  "columns": [
+   {
+    "title": "Explore",
     "links": [
-      {
-        "id": "collection",
-        "label": "Residences"
-      },
-      {
-        "id": "benefits",
-        "label": "Why Aurum"
-      },
-      {
-        "id": "how",
-        "label": "How it works"
-      },
-      {
-        "id": "people",
-        "label": "Advisers"
-      },
-      {
-        "id": "pricing",
-        "label": "Services"
-      },
-      {
-        "id": "faq",
-        "label": "Questions"
-      }
+     {
+      "label": "Residences",
+      "href": "collection"
+     },
+     {
+      "label": "Why Aurum",
+      "href": "benefits"
+     },
+     {
+      "label": "How it works",
+      "href": "how"
+     },
+     {
+      "label": "Questions",
+      "href": "faq"
+     }
     ]
-  },
-  "hero": {
-    "eyebrow": "Private luxury residences",
-    "title": "A home chosen",
-    "titleAccent": "quietly, and well",
-    "sub": "A small collection of residences, shown one at a time, with a senior adviser beside you from first visit to signing.",
-    "cta": "Request a viewing",
-    "secondary": "View the residences",
-    "proof": "Every residence is visited in person by our team before it is shown.",
-    "alt": "Illustration of a modern luxury villa with a pool at dusk"
-  },
-  "benefits": {
-    "eyebrow": "Why Maison Aurum",
-    "title": "Luxury is attention, not noise",
-    "items": [
-      {
-        "icon": "key",
-        "title": "Private viewings only",
-        "body": "Homes are shown one buyer at a time, at hours that suit you, with no open house crowds."
-      },
-      {
-        "icon": "shield",
-        "title": "Discreet by default",
-        "body": "Your search stays between you and your adviser. Nothing is shared without your word."
-      },
-      {
-        "icon": "compass",
-        "title": "Off market access",
-        "body": "Some homes are never listed in public. Your adviser brings them to you first."
-      },
-      {
-        "icon": "chat",
-        "title": "One adviser throughout",
-        "body": "The same person answers your calls, walks the home with you and sits at the signing table."
-      }
+   },
+   {
+    "title": "Services",
+    "links": [
+     {
+      "label": "Advisers",
+      "href": "people"
+     },
+     {
+      "label": "Services",
+      "href": "pricing"
+     },
+     {
+      "label": "Contact",
+      "href": "contact"
+     },
+     {
+      "label": "Request a viewing",
+      "href": "contact"
+     }
     ]
-  },
-  "tagline": "A fine home does not shout. It waits behind a quiet gate, and reveals itself slowly to the person it was made for.",
-  "how": {
-    "eyebrow": "How it works",
-    "title": "Three calm steps to a private home",
-    "steps": [
-      {
-        "title": "A quiet conversation",
-        "body": "Tell your adviser what home means to you, in your own words, and what must stay private."
-      },
-      {
-        "title": "Private viewings",
-        "body": "Visit two or three residences that truly match, at your pace, with no pressure to decide."
-      },
-      {
-        "title": "A careful close",
-        "body": "Terms, papers and timing are handled discreetly, with a lawyer you choose reviewing every page."
-      }
-    ]
-  },
-  "collection": {
-    "eyebrow": "Residences",
-    "title": "The current collection",
-    "sub": "Sample residences. Prices shown are demo prices for this page.",
-    "searchLabel": "Search residences",
-    "searchPlaceholder": "Search by area or residence name",
-    "filterLabel": "Filter by type",
-    "allLabel": "All",
-    "emptyTitle": "No residence matches this search",
-    "emptyBody": "Try a different area or clear the filters to see the whole collection.",
-    "clearFilters": "Clear filters",
-    "viewDetails": "View details",
-    "askAbout": "Ask about this residence",
-    "sampleLabel": "Sample residence",
-    "items": [
-      {
-        "id": "r1",
-        "category": "Villa",
-        "icon": "house",
-        "title": "The marble court villa",
-        "location": "New Cairo",
-        "meta1": "6 bedrooms",
-        "meta2": "7 bathrooms",
-        "meta3": "640 m²",
-        "price": "EGP 38,400,000",
-        "tag": "Private sale",
-        "desc": "A marble court villa with a pool wing, a library and a garden designed for long evenings outdoors."
-      },
-      {
-        "id": "r2",
-        "category": "Penthouse",
-        "icon": "buildings",
-        "title": "Skyline penthouse",
-        "location": "Zamalek, Cairo",
-        "meta1": "4 bedrooms",
-        "meta2": "5 bathrooms",
-        "meta3": "410 m²",
-        "price": "EGP 27,900,000",
-        "tag": "Private sale",
-        "desc": "A top floor penthouse with a wraparound terrace, a private lift and a view over the river."
-      },
-      {
-        "id": "r3",
-        "category": "Villa",
-        "icon": "house",
-        "title": "Palm garden villa",
-        "location": "Sheikh Zayed City",
-        "meta1": "5 bedrooms",
-        "meta2": "6 bathrooms",
-        "meta3": "520 m²",
-        "price": "EGP 31,250,000",
-        "tag": "Private sale",
-        "desc": "A garden villa with mature palms, a shaded pool and a guest wing that works as a home office."
-      },
-      {
-        "id": "r4",
-        "category": "Penthouse",
-        "icon": "buildings",
-        "title": "The gallery penthouse",
-        "location": "New Cairo",
-        "meta1": "3 bedrooms",
-        "meta2": "4 bathrooms",
-        "meta3": "340 m²",
-        "price": "EGP 22,750,000",
-        "tag": "Private sale",
-        "desc": "A penthouse with gallery height ceilings, a chef kitchen and a terrace made for hosting."
-      },
-      {
-        "id": "r5",
-        "category": "Estate",
-        "icon": "house",
-        "title": "Olive estate house",
-        "location": "Katameya Heights",
-        "meta1": "7 bedrooms",
-        "meta2": "8 bathrooms",
-        "meta3": "890 m²",
-        "price": "EGP 54,600,000",
-        "tag": "By introduction",
-        "desc": "An estate house on a full acre, with an olive grove, a pool house and staff quarters."
-      },
-      {
-        "id": "r6",
-        "category": "Villa",
-        "icon": "house",
-        "title": "The quiet courtyard villa",
-        "location": "Marassi, North Coast",
-        "meta1": "5 bedrooms",
-        "meta2": "5 bathrooms",
-        "meta3": "470 m²",
-        "price": "EGP 29,300,000",
-        "tag": "Private sale",
-        "desc": "A coastal villa arranged around a courtyard, with sea air in every room and a short walk to the beach."
-      }
-    ]
-  },
-  "people": {
-    "eyebrow": "Advisers",
-    "title": "Your adviser, from first call to signing",
-    "sub": "Senior advisers only. No handovers, no call centre.",
-    "items": [
-      {
-        "icon": "users",
-        "name": "Amira Khalil",
-        "role": "Senior adviser",
-        "body": "Amira has guided buyers through private sales in Cairo for twelve years."
-      },
-      {
-        "icon": "users",
-        "name": "Tariq El Din",
-        "role": "Senior adviser",
-        "body": "Tariq specialises in estates and off market homes along the North Coast."
-      },
-      {
-        "icon": "users",
-        "name": "Nadia Fawzi",
-        "role": "Private clients lead",
-        "body": "Nadia looks after families relocating to Cairo and arranges every viewing around their stay."
-      }
-    ]
-  },
-  "proof": {
-    "eyebrow": "What clients say",
-    "title": "Quiet praise from private clients",
-    "sampleLabel": "Sample testimonial",
-    "items": [
-      {
-        "quote": "We never felt rushed. Our adviser showed us three homes over three weeks, and the third was the one.",
-        "name": "H. El Sherif",
-        "role": "Bought a villa in New Cairo"
-      },
-      {
-        "quote": "Everything stayed private. Our name never appeared anywhere, and the sale closed on the date we agreed.",
-        "name": "M. Mansour",
-        "role": "Sold a penthouse in Zamalek"
-      },
-      {
-        "quote": "The viewing was arranged around our flight. We landed, saw the house, and signed the reservation the same evening.",
-        "name": "S. and R. Haddad",
-        "role": "Bought a coastal villa"
-      }
-    ]
-  },
-  "pricing": {
-    "eyebrow": "Services",
-    "title": "How our service is arranged",
-    "sub": "Fees are agreed in writing before any viewing is arranged. There is no charge to talk through your search.",
-    "note": "All figures are confirmed in writing before work starts. Nothing is charged for an introductory conversation.",
-    "plans": [
-      {
-        "name": "Private search",
-        "price": "{{search fee}}",
-        "per": "Per completed purchase",
-        "cta": "Start a private search",
-        "featured": false,
-        "features": [
-          "One senior adviser throughout",
-          "Off market homes included",
-          "Viewings arranged around your calendar"
-        ]
-      },
-      {
-        "name": "Private sale",
-        "price": "{{sale fee}}",
-        "per": "Per completed sale",
-        "cta": "Discuss selling privately",
-        "featured": true,
-        "features": [
-          "Discreet presentation, no public listing",
-          "Buyers introduced by your adviser only",
-          "Negotiation and papers handled for you"
-        ]
-      },
-      {
-        "name": "Relocation",
-        "price": "{{relocation fee}}",
-        "per": "Per family relocation",
-        "cta": "Plan a relocation",
-        "featured": false,
-        "features": [
-          "A shortlist ready before you arrive",
-          "Schools and area guidance included",
-          "Settling in support after the move"
-        ]
-      }
-    ]
-  },
-  "faq": {
-    "eyebrow": "Questions",
-    "title": "Questions private clients ask",
-    "items": [
-      {
-        "q": "Are your homes listed in public?",
-        "a": "Most are not. Homes are shown privately to buyers whose search matches, and some are shared only by introduction."
-      },
-      {
-        "q": "How do I arrange a viewing?",
-        "a": "Send a request through the form below. Your adviser will call you, confirm a time, and meet you at the residence."
-      },
-      {
-        "q": "Can I keep my search private?",
-        "a": "Yes. Your name and details are shared with no one without your word, and viewings are arranged one buyer at a time."
-      },
-      {
-        "q": "Do you work with buyers from abroad?",
-        "a": "Yes. We arrange video walkthroughs first, then a shortlist of viewings for your visit, with a lawyer you choose reviewing the papers."
-      },
-      {
-        "q": "What does the service cost?",
-        "a": "Fees depend on the service and the home, and they are agreed in writing before any viewing. An introductory conversation is free."
-      },
-      {
-        "q": "Can you help sell my home privately?",
-        "a": "Yes. We present the home discreetly to matched buyers, manage the viewings, and handle the negotiation and papers."
-      }
-    ]
-  },
-  "form": {
-    "eyebrow": "Private inquiry",
-    "title": "Request a private viewing",
-    "sub": "Share a little about what you are looking for. Your adviser will call you, not a call centre.",
-    "name": "Full name",
-    "namePh": "Your full name",
-    "email": "Email",
-    "emailPh": "name@example.com",
-    "phone": "Phone",
-    "phonePh": "+20 100 000 0000",
-    "type": "I am interested in",
-    "typePlaceholder": "Choose one",
-    "typeOptions": [
-      "Buying a residence",
-      "Selling privately",
-      "A private viewing",
-      "Relocation"
-    ],
-    "message": "Tell us about the home you want",
-    "messagePh": "Area, style, what matters most",
-    "submit": "Send my private request",
-    "successTitle": "Request received",
-    "successBody": "Thank you. Your adviser will call you within one working day.",
-    "sendAnother": "Send another request",
-    "errors": {
-      "required": "This field is required",
-      "email": "Enter an email address in the format name@example.com",
-      "phone": "Enter a phone number with at least 7 digits"
-    },
-    "savedNote": "Requests saved in this browser: {{count}}"
-  },
-  "finalCta": {
-    "title": "The right home is rarely the loudest one",
-    "sub": "Tell us what you are looking for, and we will show you the homes that match, quietly.",
-    "cta": "Request a viewing"
-  },
-  "footer": {
-    "about": "Maison Aurum presents a small collection of luxury residences, privately, with one senior adviser for each client.",
-    "columns": [
-      {
-        "title": "Explore",
-        "links": [
-          {
-            "label": "Residences",
-            "href": "collection"
-          },
-          {
-            "label": "Why Aurum",
-            "href": "benefits"
-          },
-          {
-            "label": "How it works",
-            "href": "how"
-          },
-          {
-            "label": "Questions",
-            "href": "faq"
-          }
-        ]
-      },
-      {
-        "title": "Services",
-        "links": [
-          {
-            "label": "Advisers",
-            "href": "people"
-          },
-          {
-            "label": "Services",
-            "href": "pricing"
-          },
-          {
-            "label": "Contact",
-            "href": "contact"
-          },
-          {
-            "label": "Request a viewing",
-            "href": "contact"
-          }
-        ]
-      }
-    ],
-    "legalTitle": "Legal",
-    "privacy": "Privacy policy",
-    "terms": "Terms of service",
-    "privacyTitle": "Privacy policy",
-    "privacyBody": "We use the details you share only to answer your inquiry. We do not share them with any third party without your word, and you can ask us to delete them at any time.",
-    "termsTitle": "Terms of service",
-    "termsBody": "Residences on this page are samples for demonstration. Prices, availability and fees are confirmed in writing before any agreement is signed.",
-    "rights": "© 2026 Maison Aurum. All rights reserved.",
-    "backTop": "Back to top"
-  },
-  "cookie": {
-    "text": "We use a small cookie to remember your language choice and your saved requests.",
-    "accept": "Accept",
-    "decline": "Decline"
-  },
-  "notFound": {
-    "title": "This page does not exist",
-    "body": "The link you followed may be out of date. Go back to the home page and start again.",
-    "back": "Back to home"
-  },
-  "misc": {
-    "skip": "Skip to content",
-    "close": "Close"
-  }
+   }
+  ],
+  "legalTitle": "Legal",
+  "privacy": "Privacy policy",
+  "terms": "Terms of service",
+  "privacyTitle": "Privacy policy",
+  "privacyBody": "We use the details you share only to answer your inquiry. We do not share them with any third party without your word, and you can ask us to delete them at any time.",
+  "termsTitle": "Terms of service",
+  "termsBody": "Residences on this page are samples for demonstration. Prices, availability and fees are confirmed in writing before any agreement is signed.",
+  "rights": "© 2026 Maison Aurum. All rights reserved.",
+  "backTop": "Back to top"
+ },
+ "cookie": {
+  "text": "We use a small cookie to remember your language choice and your saved requests.",
+  "accept": "Accept",
+  "decline": "Decline"
+ },
+ "notFound": {
+  "title": "This page does not exist",
+  "body": "The link you followed may be out of date. Go back to the home page and start again.",
+  "back": "Back to home"
+ },
+ "misc": {
+  "skip": "Skip to content",
+  "close": "Close"
+ }
 }

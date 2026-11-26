@@ -8,9 +8,10 @@ import {
 } from '@phosphor-icons/react'
 import en from '../locales/en/common.json'
 import ar from '../locales/ar/common.json'
-import HeroArt from './art.tsx'
 
 type Lang = 'en' | 'ar'
+
+const HERO_IMAGE = 'https://images.pexels.com/photos/16573669/pexels-photo-16573669/free-photo-of-luxury-villa-house.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 type Dict = Record<string, any>
 
 const ICONS: Record<string, any> = {
@@ -223,7 +224,7 @@ export default function App() {
               <p className="caption-2 mt-8 flex items-center gap-2 text-[var(--muted)]"><ShieldCheck size={16} aria-hidden="true" />{t.hero.proof}</p>
             </div>
             <div className="overflow-hidden rounded-2xl border border-[var(--line)]">
-              <HeroArt alt={t.hero.alt} />
+              <img src={HERO_IMAGE} alt={t.hero.alt} loading="lazy" className="aspect-[1260/750] w-full object-cover" />
             </div>
           </div>
         </section>
@@ -295,9 +296,9 @@ export default function App() {
               <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {filtered.map((item) => (
                   <article key={item.id} className="flex flex-col overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--surface)] transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1">
-                    <div className="flex h-40 items-center justify-center gap-2 bg-[var(--bg)] p-4" role="img" aria-label={`${item.title}, ${item.location}`}>
-                      <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[var(--accent)] text-[var(--accent-ink)]"><Icon name={item.icon} size={32} /></span>
-                      <span className="caption-3 rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-2">{item.tag}</span>
+                    <div className="relative h-40 overflow-hidden" role="img" aria-label={`${item.title}, ${item.location}`}>
+                      <img src={item.image} alt={`${item.title}, ${item.location}`} loading="lazy" className="h-full w-full object-cover" />
+                      <span className="caption-3 absolute bottom-3 start-3 rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-2">{item.tag}</span>
                     </div>
                     <div className="flex flex-1 flex-col gap-2 p-4">
                       <p className="caption-3 text-[var(--accent)]">{t.collection.sampleLabel} · {item.category}</p>
@@ -509,6 +510,7 @@ export default function App() {
               <button type="button" onClick={() => setDetail(null)} aria-label={t.misc.close} className="rounded-xl border border-[var(--line)] p-2 transition-all duration-300 hover:bg-[var(--bg)]"><X size={18} /></button>
             </div>
             <p className="body-6 mt-2 flex items-center gap-2 text-[var(--muted)]"><MapPin size={14} aria-hidden="true" />{detail.location}</p>
+            <img src={detail.image} alt={detail.title} loading="lazy" className="mt-4 h-48 w-full rounded-xl object-cover" />
             <p className="body-3 mt-4">{detail.desc}</p>
             <p className="title-1 mt-4">{detail.price}</p>
             <button type="button" onClick={() => { setDetail(null); goTo('contact') }} className={`${btnPrimary} mt-8 w-full`}>{t.collection.askAbout}<ArrowRight size={18} aria-hidden="true" /></button>
